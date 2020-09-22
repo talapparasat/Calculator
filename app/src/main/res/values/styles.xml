@@ -1,0 +1,50 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+<!--    <style name="HiddenTitleTheme" parent="AppTheme">-->
+<!--        <item name="windowNoTitle">true</item>-->
+<!--        <item name="windowActionBar">false</item>-->
+<!--    </style>-->
+
+    <style name="btn">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/buttonPrimary</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">@dimen/fontSizeBtn</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+    </style>
+
+    <style name="btn.digits">
+        <item name="android:textColor">@color/colorDigits</item>
+    </style>
+
+    <style name="btn.operators">
+        <item name="android:textColor">@color/colorOperators</item>
+    </style>
+
+    <style name="btn.clear">
+        <item name="android:textColor">@color/colorClear</item>
+    </style>
+
+    <style name="btn.equal">
+        <item name="android:textColor">@color/colorEqual</item>
+    </style>
+
+    <style name="result">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/fontSizeResult</item>
+        <item name="android:layout_margin">@dimen/resultLabelMargin</item>
+    </style>
+
+</resources>
